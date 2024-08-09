@@ -1,0 +1,42 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    /* background-color:skyblue; */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .Back{
+    background-size: 100%;
+    background-image:url("https://img.freepik.com/premium-photo/top-view-desk-concept-with-copy-space_23-2148459757.jpg");
+    background-attachment: fixed;
+  }
+  .abc{      
+   display: inline-block;
+  }
+  .form-group-right {    
+    float: right;
+    align-self: flex-end;
+    max-width: 100%;
+    width: 45%;
+    margin-bottom: 15px;
+  }
+
+  .form-group-left {
+    float: left;
+    align-self: flex-start;
+    max-width: 50%;
+    width: 45%;
+    margin-bottom: 15px;
+  }
+ 
+  .form-control {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 4px;
+  }
+ 
+  .btn-primary {
+    align-self: center;
+    width: 35%;
+    padding: 7px;
+  }
